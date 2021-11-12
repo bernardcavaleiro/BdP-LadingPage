@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cabin'
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 145px;
+    background-color: #06c238;
+}
+
+.header img{
+    margin: 19px;
+}
+
+.container-banner{
+    width: 100%;
+    height: 557px;
+    background-image: url('../images/header_bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+
+.form{
+    padding: 15px;
+    width: 450px;
+    height: 101% ;
+    float: right;
+    position: relative;
+    top: 30px;
+    border: 4px solid #ccc;
+    background-color: white;
+}
+
+.form h1{
+    font-weight: normal;
+    font-size:30px;
+    color: #999999;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span, .form p{
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #bbbbbb
+}
+
+.input-container input[type=text]{
+    width: 80%;
+    height: 35px;
+    border: 2px solid #ccc;
+}
+
+.form p{
+    font-size: 15px;
+    margin-top: 8px 0;   
+}
+
+.form .input-submit-container{
+    margin-top: 24px;
+    text-align: center;
+}
+
+.form input[type=submit]{
+    color: white;
+    width: 200px;
+    height: 75px;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: green;
+    display: inline-block;
+    border-bottom: 3px solid #07a330;
+    border-left: 0;
+    border-top: 0;
+    border-right: 3px solid #07a330;
+}
+
+.form input[type=submit]:hover{
+    background-color: #04691f
+}
+
+.container-list{
+    float: left;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(5, 176, 51, 0.4);
+    margin-top: 100px auto;
+}
