@@ -17,7 +17,7 @@ html, body{
 .header{
     width: 100%;
     height: 145px;
-    background-color: #06c238;
+    background-color: #2bc454;
 }
 
 .header img{
@@ -119,4 +119,22 @@ html, body{
     border: 0;
     margin-top: 17px;
 
+}
+
+.container-2{
+    padding: 40px 0;
+    background-color: #ededed;
+}
+
+.container-2 img{
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    padding: 40px auto;
+    margin-top: 40px;
+}
+
+.container-2 h1{
+    border: 0;
+    margin: auto;
 }
