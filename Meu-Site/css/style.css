@@ -9,6 +9,10 @@ html, body{
     height: 100%;
 }
 
+.clear{
+    clear: both;
+}
+
 input[type=text]{
     outline:none
 }
@@ -21,6 +25,7 @@ input[type=text]{
 }
 
 .header{
+    min-width: 1200px;
     width: 100%;
     height: 145px;
     background-color: #2bc454;
@@ -128,6 +133,7 @@ input[type=text]{
 }
 
 .container-2{
+    min-width: 1200px;
     padding: 50px 0;
     background-color: #ededed;
 }
@@ -189,3 +195,29 @@ input[type=text]{
     padding-bottom: 100px;
 }
 
+.topsocial{
+    width: 100%;
+    height: 350px;
+    background-color: #ccc;
+    
+}
+
+.topsocial h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.facebook, .instagram, .whatsapp{
+    display: inline-block;
+    padding: 30px 30px;
+    margin: 0 auto;
+}
+
+
+.footer{
+    border-top: 4px solid black;
+    padding: 30px 0;
+
+}
