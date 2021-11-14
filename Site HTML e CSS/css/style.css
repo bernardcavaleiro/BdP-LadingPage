@@ -137,19 +137,18 @@ input[type=text]{
 }
 
 .container-2{
-    min-width: 1200px;
     padding: 50px 0;
     background-color: #ededed;
 }
 
 .container-2 p{
     margin: auto;
-    padding: 100px;
+    padding: 50px 20px;
 }
 
 .container-2 h1{
     margin: auto;
-    padding: 100px;
+    padding: 20px;
     font-size: 100px;
     margin-left: 100px;
     
