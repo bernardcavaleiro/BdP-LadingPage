@@ -1,4 +1,4 @@
-# Bosque de Pinheiros Lading Page
+# Bosque de Pinheiros Landing Page
 
 ![1](https://user-images.githubusercontent.com/93807791/144868991-d0934b29-ce3f-4a25-9866-966a07358c18.png)
 
